@@ -1,7 +1,7 @@
 {
   "name": "wtfpm",
   "description": "Detect common package managers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "dependencies": {
     "which": "1.0.x",
