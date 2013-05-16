@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var wtfpm = require('../');
+wtfpm(function (err, managers) {
+  if (err) {
+    console.dir(err);
+    process.exit(1);
+  }
+
+  managers.forEach(function (manager) {
+    console.log(manager);
+  });
+});

@@ -1,0 +1,11 @@
+{
+  "name": "wtfpm",
+  "description": "Detect common package managers",
+  "version": "0.0.0",
+  "author": "Maciej Małecki <me@mmalecki.com>",
+  "dependencies": {
+    "which": "1.0.x",
+    "async": "0.2.x"
+  },
+  "main": "./lib/wtfpm.js"
+}
